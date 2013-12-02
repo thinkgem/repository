@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-catalog>
-  <archetypes>
-    <archetype>
-      <groupId>com.fr</groupId>
-      <artifactId>fr-server</artifactId>
-      <version>7.0</version>
-    </archetype>
-    <archetype>
-      <groupId>com.fr</groupId>
-      <artifactId>fr-third</artifactId>
-      <version>7.0</version>
-    </archetype>
-  </archetypes>
+<archetype-catalog xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+	<archetypes>
+		<archetype>
+			<groupId>com.fr</groupId>
+			<artifactId>fr-server</artifactId>
+			<version>7.0</version>
+			<repository>
+				http://git.oschina.net/thinkgem/repos/raw/master
+			</repository>
+		</archetype>
+		<archetype>
+			<groupId>com.fr</groupId>
+			<artifactId>fr-third</artifactId>
+			<version>7.0</version>
+			<repository>
+				http://git.oschina.net/thinkgem/repos/raw/master
+			</repository>
+		</archetype>
+	</archetypes>
 </archetype-catalog>
