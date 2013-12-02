@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog>
+  <archetypes>
+    <archetype>
+      <groupId>com.fr</groupId>
+      <artifactId>fr-server</artifactId>
+      <version>7.0</version>
+    </archetype>
+    <archetype>
+      <groupId>com.fr</groupId>
+      <artifactId>fr-third</artifactId>
+      <version>7.0</version>
+    </archetype>
+  </archetypes>
+</archetype-catalog>
