@@ -13,4 +13,6 @@ call mvn deploy:deploy-file -DgroupId=org.wltea -DartifactId=analyzer -Dversion=
 call mvn deploy:deploy-file -DgroupId=com.fr -DartifactId=fr-server -Dversion=7.0 -Dpackaging=jar -Dfile=fr/fr-server-7.0.jar -Durl=file:../
 call mvn deploy:deploy-file -DgroupId=com.fr -DartifactId=fr-third -Dversion=7.0 -Dpackaging=jar -Dfile=fr/fr-third-7.0.jar -Durl=file:../
 
+call mvn deploy:deploy-file -DgroupId=bitwalker -DartifactId=UserAgentUtils -Dversion=1.13 -Dpackaging=jar -Dfile=UserAgentUtils/UserAgentUtils-1.13.jar -Durl=file:../
+
 pause
